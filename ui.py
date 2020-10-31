@@ -65,7 +65,7 @@ def analysis():
     #    plt.imshow(img)
     #    #print(img)
     #    break;
-    #image = "/home/prabhat/PycharmProjects/mlpackage01/PlantVillage/PlantVillage/Pepper__bell___Bacterial_spot/0abffc81-6be8-4b17-a83c-4d2830e30382___JR_B.Spot 9076.JPG"
+    #image = "/home/navneet/PycharmProjects/mlpackage01/PlantVillage/PlantVillage/Pepper__bell___Bacterial_spot/0abffc81-6be8-4b17-a83c-4d2830e30382___JR_B.Spot 9076.JPG"
     image=path1
     image = convert_image(image)
     #print("imag-==",image)
