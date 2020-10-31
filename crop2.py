@@ -40,7 +40,7 @@ def convert_image(image_dir):
 model_file = "cnn_model.pkl"
 saved_classifier_model = pickle.load(open(model_file, 'rb'))
 #print("prabhat")
-image="/home/prabhat/PycharmProjects/mlpackage01/PlantVillage/PlantVillage/Pepper__bell___Bacterial_spot/0a0dbf1f-1131-496f-b337-169ec6693e6f___NREC_B.Spot 9241.JPG"
+image="/home/navneet/PycharmProjects/mlpackage01/PlantVillage/PlantVillage/Pepper__bell___Bacterial_spot/0a0dbf1f-1131-496f-b337-169ec6693e6f___NREC_B.Spot 9241.JPG"
 
 image=convert_image(image)
 image = image.astype("float") / 255.0
