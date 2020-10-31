@@ -22,7 +22,7 @@ INIT_LR = 1e-3
 BS =64
 default_image_size = tuple((50,50))
 
-directory_root = '/home/prabhat/PycharmProjects/mlpackage01/PlantVillage/PlantVillage'
+directory_root = '/home/navneet/PycharmProjects/mlpackage01/PlantVillage/PlantVillage'
 
 width=50
 height=50
